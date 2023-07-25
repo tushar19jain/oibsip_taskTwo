@@ -38,8 +38,11 @@ margin-top: 80px;
 }
 @media screen and (max-device-width: 480px)
     and (orientation: portrait) {
+        .links{
+            padding: 30px;
+        }
         .nav-links li a{
-            font-size: 15px;
+            font-size: 13px;
         }
         .intro h1{
             font-size: 30px;
@@ -48,7 +51,7 @@ margin-top: 80px;
             font-size: 28px;
         }
         .aboutMe{
-            margin: 40px;
+            margin: 38px;
         }
         .aboutMe p{
             font-size: 15px;
