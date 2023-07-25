@@ -39,10 +39,20 @@ margin-top: 80px;
 @media screen and (max-device-width: 480px)
     and (orientation: portrait) {
         .links{
-            padding: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        }
+        #linkOne{
+            display: none;
+        }
+        #linkTwo{
+            display: none;
+        }
+        #linkThree{
+            display: none;
         }
         .nav-links li a{
-            font-size: 13px;
+            font-size: 12px;
         }
         .intro h1{
             font-size: 30px;
@@ -59,18 +69,16 @@ margin-top: 80px;
         }
         .education h1{
             margin-top: -70px;
-            margin-left: 10px;
             font-size:40px;
         }
         .container{
-            margin-left: -10px;
-            width: 250px;
+            margin-left: 20px;
         }
         .container h3{
-            font-size: 18px;
+            font-size: 16px;
         }
         .container h4{
-            font-size: 16px;
+            font-size: 14px;
         }
         .Projects h1{
             font-size: 25px;   
@@ -93,6 +101,9 @@ margin-top: 80px;
             margin-top: 10px;
         }
         .bar p{
+            font-size: 16px;
+        }
+        .copyright{
             font-size: 16px;
         }
     }
